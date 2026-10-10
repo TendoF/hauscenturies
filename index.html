@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Haus Centuries | Aluminium Windows & Property Maintenance, Zimbabwe</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Playfair+Display:wght@700;900&family=Fraunces:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--navy:#14264A;--navy2:#0C1830;--gold:#D9A92E;--gold2:#B88A16;--bg:#F6F1E6;--card:#fff;--ink:#121B2E;--slate:#56607A;--nav:#fff;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1626;--card:#18233B;--ink:#F1EBDD;--slate:#A9B1C4;--nav:#0C1830}}
+:root[data-theme="dark"]{--bg:#0F1626;--card:#18233B;--ink:#F1EBDD;--slate:#A9B1C4;--nav:#0C1830}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font-family:'Poppins',sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;font-size:14px}
+nav{position:fixed;top:0;width:100%;background:var(--nav);z-index:99;box-shadow:0 2px 15px rgba(0,0,0,.1);padding:.7rem 0;padding-top:calc(.7rem + env(safe-area-inset-top,0px))}
+.wrap{max-width:1200px;margin:0 auto;padding:0 5%}
+.nav-in{display:flex;justify-content:space-between;align-items:center}
+.logo{display:flex;align-items:center;gap:.6rem;text-decoration:none;color:var(--ink)}
+.logo-mark{width:38px;height:38px;border-radius:9px;background:linear-gradient(135deg,var(--navy),#2A4478);color:var(--gold);display:flex;align-items:center;justify-content:center;font-family:Fraunces,serif;font-weight:700;font-size:1.1rem}
+.logo b{font-size:.85rem;line-height:1.2;display:block}.logo small{font-size:.6rem;color:var(--slate);letter-spacing:1px}
+.menu{display:none;list-style:none;gap:1.8rem;align-items:center}
+.menu a{color:var(--ink);text-decoration:none;font-weight:600;font-size:.85rem}
+.btn{display:inline-block;padding:.65rem 1.4rem;border-radius:50px;font-weight:700;font-size:.78rem;text-decoration:none;border:0;cursor:pointer;font-family:Inter,sans-serif;transition:.3s}
+.btn-gold{background:var(--gold);color:#1a1405}.btn-gold:hover{background:var(--gold2);transform:translateY(-2px)}
+.btn-line{background:#fff;color:var(--navy);border:2px solid #fff}.btn-line:hover{background:transparent;color:#fff}.btn-dark{background:var(--navy);color:#fff}
+.burger{background:none;border:0;width:36px;height:36px;cursor:pointer}
+.burger span{display:block;height:2px;background:var(--ink);margin:6px 6px}
+.mm{display:none;position:fixed;top:60px;left:0;right:0;background:var(--navy);padding:1rem 5%;z-index:98;margin-top:env(safe-area-inset-top,0px)}
+.mm.on{display:block}.mm a{display:block;color:#fff;text-decoration:none;font-weight:600;font-size:.9rem;padding:.7rem 1rem;margin-bottom:.4rem;border-radius:10px;background:rgba(255,255,255,.08)}
+.hero{margin-top:60px;height:62vh;min-height:440px;max-height:620px;background:linear-gradient(to right,rgba(20,38,74,.88) 45%,rgba(20,38,74,.3) 70%,rgba(255,255,255,0) 100%),url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=80') right center/cover;display:flex;align-items:center;padding:2rem 0}@media(max-width:799px){.hero{background:linear-gradient(to right,rgba(20,38,74,.9) 55%,rgba(20,38,74,.45) 100%),url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1000&q=80') right center/cover}}
+.hero .wrap{width:100%;max-width:1400px;margin:0 auto;text-align:left}.hero .hero-content{max-width:600px;margin-right:auto}.badge{display:inline-block;background:var(--gold);color:#1a1405;padding:.35rem .9rem;border-radius:50px;font-weight:700;font-size:.6rem;letter-spacing:1.2px;text-transform:uppercase;margin-bottom:.9rem}
+.hero h1{font-family:'Playfair Display',serif;font-weight:900;font-size:1.6rem;line-height:1.15;color:#fff;margin-bottom:.8rem;max-width:600px;text-shadow:0 2px 10px rgba(0,0,0,.2)}
+.hero p{font-size:.82rem;color:#fff;max-width:480px;margin-bottom:1.3rem;text-shadow:0 1px 5px rgba(0,0,0,.15)}
+.hero .btns{display:flex;gap:.6rem;flex-wrap:wrap}
+.trust{background:var(--navy2);padding:1.1rem 5%}
+.trust div{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:.8rem}
+.trust span{color:#EDE3CF;font-family:Inter,sans-serif;font-size:.75rem;font-weight:500;display:flex;align-items:center;gap:.5rem}
+.trust i{color:var(--gold);font-style:normal}
+section{padding:3.2rem 0}
+.eyebrow{display:flex;align-items:center;gap:.5rem;font-family:Inter,sans-serif;font-weight:700;font-size:.62rem;letter-spacing:2px;text-transform:uppercase;color:var(--gold2);margin-bottom:.7rem}
+.eyebrow:before{content:'';width:22px;height:2px;background:var(--gold)}
+h2{font-family:Fraunces,serif;font-size:1.35rem;line-height:1.25;margin-bottom:.6rem}
+.desc{font-family:Inter,sans-serif;font-size:.82rem;color:var(--slate);max-width:600px;line-height:1.7}
+.head{margin-bottom:1.8rem}
+.arch{border-radius:110px 110px 12px 12px;overflow:hidden;box-shadow:0 14px 32px rgba(0,0,0,.18)}
+.arch img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s}.arch:hover img{transform:scale(1.07)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem}
+.card{text-align:center}.card .arch{height:200px;margin-bottom:.9rem}
+.card h3{font-family:Fraunces,serif;font-size:.95rem;margin-bottom:.3rem}
+.card p{font-family:Inter,sans-serif;font-size:.74rem;color:var(--slate);line-height:1.55}
+.alt{background:var(--card)}
+.two{display:grid;gap:1.8rem;align-items:center}
+.two .arch{height:300px}
+.list{list-style:none;margin:1rem 0;display:grid;grid-template-columns:1fr 1fr;gap:.45rem .8rem}
+.list li{font-family:Inter,sans-serif;font-size:.75rem;color:var(--slate);padding-left:1.1rem;position:relative}
+.list li:before{content:'✓';position:absolute;left:0;color:var(--gold2);font-weight:700}
+.plans{display:grid;gap:1.4rem}
+.plan{background:var(--card);border-radius:14px;padding:1.3rem;border-top:4px solid var(--gold);box-shadow:0 8px 24px rgba(0,0,0,.1)}
+.plan small{font-family:Inter,sans-serif;font-size:.6rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold2)}
+.plan h3{font-family:Fraunces,serif;font-size:1.05rem;margin:.2rem 0 .5rem}
+.plan ul{list-style:none}.plan li{font-family:Inter,sans-serif;font-size:.74rem;color:var(--slate);padding:.2rem 0 .2rem 1rem;position:relative}
+.plan li:before{content:'•';position:absolute;left:0;color:var(--gold2)}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem}
+.chips span{background:var(--card);border:1px solid rgba(217,169,46,.5);padding:.4rem .9rem;border-radius:50px;font-family:Inter,sans-serif;font-size:.72rem;font-weight:600}
+.profiles{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem;margin-top:1.6rem}
+.profiles div{background:var(--navy);color:#fff;border-radius:12px;padding:.9rem .6rem;text-align:center;border-bottom:3px solid var(--gold)}
+.profiles b{font-family:Fraunces,serif;font-size:.8rem;display:block;color:var(--gold)}.profiles span{font-family:Inter,sans-serif;font-size:.65rem;color:#d4d9e6}
+.cta{background:linear-gradient(rgba(12,24,48,.9),rgba(12,24,48,.9)),url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1400&q=80') center/cover;color:#fff;text-align:center;padding:3rem 5%}
+.cta h2{color:#fff}.cta p{font-size:.8rem;color:#d4d9e6;margin-bottom:1.2rem}
+.contact{display:grid;gap:1.8rem}
+.info p{font-family:Inter,sans-serif;font-size:.8rem;color:var(--slate);margin-bottom:.5rem}.info b{color:var(--ink)}
+form{background:var(--card);padding:1.3rem;border-radius:14px;box-shadow:0 8px 24px rgba(0,0,0,.1)}
+label{display:block;font-family:Inter,sans-serif;font-size:.7rem;font-weight:600;margin:.7rem 0 .25rem}
+input,select,textarea{width:100%;padding:.65rem .8rem;border:1px solid rgba(120,130,150,.4);border-radius:8px;font-family:Inter,sans-serif;font-size:.8rem;background:var(--bg);color:var(--ink)}
+textarea{min-height:90px}form .btn{width:100%;margin-top:1rem;padding:.8rem}
+footer{background:var(--navy2);color:#c9cfde;padding:2.2rem 5% 1.2rem;font-family:Inter,sans-serif;font-size:.74rem}
+footer .f{max-width:1200px;margin:0 auto;display:grid;gap:1.2rem}footer h4{color:var(--gold);font-family:Fraunces,serif;margin-bottom:.4rem;font-size:.9rem}
+footer a{color:#c9cfde;text-decoration:none}.copy{max-width:1200px;margin:1.4rem auto 0;padding-top:1rem;border-top:1px solid rgba(255,255,255,.12);text-align:center;font-size:.68rem}
+@media(min-width:800px){
+body{font-size:15px}.menu{display:flex}.burger{display:none}.hero{min-height:520px;margin-top:70px}.hero h1{font-size:2.7rem}.hero p{font-size:.95rem}
+.trust div{display:flex;justify-content:space-between}.trust span{font-size:.85rem}
+section{padding:5rem 0}h2{font-size:2.1rem}.desc{font-size:.95rem}.eyebrow{font-size:.72rem}
+.grid{grid-template-columns:repeat(4,1fr);gap:1.8rem}.card .arch{height:280px;border-radius:140px 140px 14px 14px}.card h3{font-size:1.1rem}.card p{font-size:.82rem}
+.two{grid-template-columns:1fr 1fr;gap:3.5rem}.two .arch{height:440px;border-radius:200px 200px 14px 14px}
+.list li{font-size:.85rem}.plans{grid-template-columns:repeat(3,1fr)}.plan li{font-size:.82rem}
+.contact{grid-template-columns:1fr 1fr;gap:3rem}footer .f{grid-template-columns:2fr 1fr 1fr 1.3fr}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav-in">
+<a href="#top" class="logo"><span class="logo-mark">H</span><span><b>HAUS CENTURIES</b><small>BUILDING FOR GENERATIONS</small></span></a>
+<ul class="menu"><li><a href="#about">About</a></li><li><a href="#windows">Windows</a></li><li><a href="#maintenance">Maintenance</a></li><li><a href="#areas">Areas</a></li><li><a href="#contact" class="btn btn-gold">Get a Quote</a></li></ul>
+<button class="burger" id="bb" aria-label="Menu"><span></span><span></span><span></span></button>
+</div></nav>
+<div class="mm" id="mm"><a href="#about">About</a><a href="#windows">Aluminium Windows</a><a href="#maintenance">Property Maintenance</a><a href="#areas">Areas We Serve</a><a href="#contact">Get a Quote</a></div>
+
+<header class="hero" id="top"><div class="wrap"><div class="hero-content">
+<span class="badge">Construction Company · Zimbabwe</span>
+<h1>Building for generations, one solid frame at a time.</h1>
+<p>Modern aluminium windows and complete property maintenance for homes, offices and institutions across Zimbabwe.</p>
+<div class="btns"><a href="#contact" class="btn btn-gold">Request a Quote</a><a href="https://wa.me/263717172008" class="btn btn-line">WhatsApp Us</a></div>
+</div></div></header>
+
+<div class="trust"><div>
+<span><i>◆</i> Modern Design</span><span><i>◆</i> Strong &amp; Durable</span><span><i>◆</i> Weather Resistant</span><span><i>◆</i> Low Maintenance</span>
+</div></div>
+
+<section id="about"><div class="wrap two">
+<div class="arch"><img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=900&q=80" alt="Construction site"></div>
+<div>
+<div class="eyebrow">About Haus Centuries</div>
+<h2>A construction company built to last.</h2>
+<p class="desc">Haus Centuries delivers reliable, affordable building solutions based in Harare. From supplying and fitting aluminium windows to keeping properties safe and functional through planned maintenance, our focus is simple: protect, preserve and enhance your assets.</p>
+<ul class="list"><li>Prompt response</li><li>Professional workmanship</li><li>Tailored to your budget</li><li>Skilled, certified team</li><li>Quick turn-around</li><li>Long-term value</li></ul>
+<a href="#contact" class="btn btn-dark">Talk to Our Team</a>
+</div></div></section>
+
+<section id="windows" class="alt"><div class="wrap">
+<div class="head"><div class="eyebrow">Aluminium Windows</div><h2>Modern, durable and affordable.</h2><p class="desc">Ideal for homes and offices. Choose the opening style that suits your space.</p></div>
+<div class="grid">
+<div class="card"><div class="arch"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80" alt="Awning windows"></div><h3>Awning Windows</h3><p>Hinged at the top for ventilation, even when it rains.</p></div>
+<div class="card"><div class="arch"><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=80" alt="Sliding windows"></div><h3>Sliding Windows</h3><p>Smooth glide, wide views and a space-saving design.</p></div>
+<div class="card"><div class="arch"><img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&q=80" alt="Fixed windows"></div><h3>Fixed Windows</h3><p>Maximum light and clean sightlines in a strong frame.</p></div>
+<div class="card"><div class="arch"><img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&q=80" alt="Top hung windows"></div><h3>Top Hung Windows</h3><p>Secure, practical and easy to operate.</p></div>
+</div>
+<div class="head" style="margin-top:2.6rem"><div class="eyebrow">Casement Range</div><h2>Different sizes. Different applications.</h2></div>
+<div class="profiles"><div><b>Casement 30.5</b><span>Slim profile, modern look</span></div><div><b>Casement 38</b><span>Balanced, versatile</span></div><div><b>Casement 50</b><span>Larger, more substantial frame</span></div></div>
+</div></section>
+
+<section id="maintenance"><div class="wrap">
+<div class="two" style="margin-bottom:2.6rem">
+<div><div class="eyebrow">Division 05</div><h2>Property Maintenance &amp; Facilities Management</h2>
+<p class="desc">Proactive and responsive maintenance that keeps residential, commercial and institutional properties functional, safe and looking their best.</p>
+<ul class="list"><li>Preventive maintenance</li><li>Reactive repairs</li><li>Roofing &amp; gutters</li><li>Painting &amp; decorating</li><li>Plumbing &amp; drainage</li><li>Electrical repairs</li><li>Tiling &amp; flooring</li><li>Ceilings &amp; partitions</li><li>Grounds maintenance</li><li>Inspections &amp; reporting</li></ul></div>
+<div class="arch"><img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=900&q=80" alt="Maintenance worker"></div></div>
+<div class="head"><div class="eyebrow">Maintenance Plans</div><h2>Pick the level of care you need.</h2></div>
+<div class="plans">
+<div class="plan"><small>Preventive</small><h3>Basic Plan</h3><ul><li>Scheduled inspections</li><li>Minor repairs</li><li>Basic property upkeep</li><li>Ideal for homes and small offices</li></ul></div>
+<div class="plan"><small>Comprehensive</small><h3>Standard Plan</h3><ul><li>Regular maintenance visits</li><li>Priority call-outs</li><li>Repairs and replacements</li><li>Suited to commercial and institutional properties</li></ul></div>
+<div class="plan"><small>Total Care</small><h3>Premium Plan</h3><ul><li>All-inclusive maintenance</li><li>24/7 emergency call-outs</li><li>Full facilities management</li><li>Customised to your property</li></ul></div>
+</div></div></section>
+
+<section id="areas" class="alt"><div class="wrap">
+<div class="head"><div class="eyebrow">Where We Work</div><h2>Serving communities across Zimbabwe.</h2><p class="desc">Headquartered in Harare, with projects in these areas and more.</p></div>
+<div class="chips"><span>Harare</span><span>Masvingo</span><span>Mutare</span><span>Chivhu</span></div>
+</div></section>
+
+<div class="cta"><h2>Ready to start your project?</h2><p>Send us your requirements and we will get back to you with a quote.</p><a href="#contact" class="btn btn-gold">Request a Quote Today</a></div>
+
+<section id="contact"><div class="wrap contact">
+<div class="info"><div class="eyebrow">Contact</div><h2>Let's build something that lasts.</h2>
+<p><b>Phone / WhatsApp:</b> <a href="tel:+263717172008">+263 71 717 2008</a></p>
+<p><b>Email:</b> <a href="mailto:sales@hauscenturies.com">sales@hauscenturies.com</a></p>
+<p><b>Location:</b> Harare, Zimbabwe</p>
+<p><b>Facebook:</b> Haus Centuries</p></div>
+<form id="cf">
+<label>Full Name *</label><input id="n" required>
+<label>Phone *</label><input id="p" type="tel" required>
+<label>Service Needed *</label>
+<select id="s" required><option value="">Select service</option><option>Aluminium Windows</option><option>Casement Windows</option><option>Property Maintenance</option><option>Maintenance Plan</option><option>Other</option></select>
+<label>Project Details *</label><textarea id="d" required placeholder="Tell us about your project..."></textarea>
+<button class="btn btn-gold" type="submit">Send Request via WhatsApp</button>
+</form></div></section>
+
+<footer><div class="f">
+<div><h4>HAUS CENTURIES</h4><p>Building for generations. Aluminium windows and property maintenance in Zimbabwe.</p></div>
+<div><h4>Services</h4><p><a href="#windows">Aluminium Windows</a></p><p><a href="#maintenance">Maintenance</a></p></div>
+<div><h4>Company</h4><p><a href="#about">About</a></p><p><a href="#contact">Contact</a></p></div>
+<div><h4>Contact</h4><p>Harare, Zimbabwe</p><p><a href="tel:+263717172008">+263 71 717 2008</a></p><p><a href="mailto:sales@hauscenturies.com">sales@hauscenturies.com</a></p></div>
+</div><div class="copy">&copy; 2026 Haus Centuries. All rights reserved.</div></footer>
+
+<script>
+var bb=document.getElementById('bb'),mm=document.getElementById('mm');
+bb.onclick=function(e){e.stopPropagation();mm.classList.toggle('on')};
+mm.onclick=function(){mm.classList.remove('on')};
+document.addEventListener('click',function(e){if(!mm.contains(e.target))mm.classList.remove('on')});
+document.getElementById('cf').onsubmit=function(e){e.preventDefault();
+var t='*New Quote Request*\n\n*Name:* '+n.value+'\n*Phone:* '+p.value+'\n*Service:* '+s.value+'\n*Details:* '+d.value;
+window.open('https://wa.me/263717172008?text='+encodeURIComponent(t),'_blank');this.reset()};
+document.querySelectorAll('img').forEach(function(i){i.onerror=function(){this.onerror=null;this.src='https://images.unsplash.com/photo-1541976590-713941681591?w=800&q=80'}});
+</script>
+</body>
+</html>
